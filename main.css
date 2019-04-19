@@ -1,0 +1,122 @@
+.profile-card{
+  background-color:hsla(60, 100%, 50%, .4);
+}
+
+
+/* Resetare CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+/* Poziționarea */
+
+.profile-card {
+  width: 480px;
+  max-width: calc(100vw - 10px);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  height: 100vh;
+}
+.head, .links {
+  text-align: center;
+}
+
+
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.profile-image {
+  margin-top: -60px;
+}
+
+/* Linkurile Contact */
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+.head, .about {
+  margin-bottom: 10%;
+}
+
+.content {
+  padding: 5% 10%;
+}
+
+body {
+  background: url("assets//aal5ruv.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.profile-card {
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+
+img {
+  padding: 1px;
+  background-color: #666;
+  transition: all 0.5s ease-in-out;
+}
+
+.content {
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+img {
+  
+  filter: grayscale(50%);
+}
+
+img:hover {
+ 
+  filter: grayscale(20%);
+}
+
+body{
+  font-family:"Raleway"
+}
+
+p {
+  color: rgba(0,0,0,.8);
+  font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+  font-size: 18px;
+  letter-spacing: -.003em;
+  line-height: 1.58;
+}
+
+h1{
+  font-size: 25px;
+}
+
+h2{
+  font-size:17px
+}
